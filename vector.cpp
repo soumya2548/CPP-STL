@@ -10,6 +10,7 @@ int main(){
     //Important operations
     v0.push_back("CPP");//It fills the vector with a given anything from the end only
     v0.pop_back();//It pops out any data from the end
+    cout<<v0.size();//It prints the length
 
     //iterator loop
     for(auto it:v0){
